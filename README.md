@@ -4,6 +4,13 @@
 
 https://undraw.co/ & https://www.slidescarnival.com/ : nice Google slides templates for presentations
 
+### Install an Egg locally
+
+pip install --editable git+https://github.com/openfisca/openfisca-core.git@SPECIFIC_BRANCH_NAME#egg=OpenFisca-Core
+pip list # (to check that the dependency has been installed successfully
+
+### Debug
+
 Debug with colors (Stop the execution at a specific place in the code and open an interactive console) :
 ```pip install ipdb```
 
