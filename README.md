@@ -2,6 +2,11 @@
 
 ## OpenFisca : turn law into software code
 
+pyenv activate openfisca-core-3.6.7
+
+
+### Slides' theme used for our demos
+
 https://undraw.co/ & https://www.slidescarnival.com/ : nice Google slides templates for presentations
 
 ### Install an Egg locally
