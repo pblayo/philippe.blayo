@@ -34,3 +34,7 @@ fpagnoux has a Sublime shortcut to insert this code snippet quickly and use it _
 
 If you are using this to debug the Web Api, it is convenient to use `openfisca serve -t 0 -w 1`
 to disable the timeout and use only one worker.
+
+### Docker
+
+To run a brand new docker on a specific directory like `openfisca-core`, you can run this command: `docker run --rm -it -v $PWD:/openfisca-core -w /openfisca-core python:3.7 bash`
