@@ -2,6 +2,12 @@
 
 ## OpenFisca : turn law into software code
 
+### Local Python environment with pyenv
+
+In my .bashrc, I added at the end:
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 pyenv activate openfisca-core-3.6.7
 
 
