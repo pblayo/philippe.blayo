@@ -1,8 +1,13 @@
-# Commands used by Philippe Blayo
+Commands used by Philippe Blayo
 
-## OpenFisca : turn law into software code
+# Dataverse : survey's data warehouse
 
-### Local Python environment with pyenv
+`./initial.bash`
+`docker-compose up`
+
+# OpenFisca : turn law into software code
+
+## Local Python environment with pyenv
 
 In my .bashrc, I added at the end:
 eval "$(pyenv init -)"
@@ -11,16 +16,16 @@ eval "$(pyenv virtualenv-init -)"
 pyenv activate openfisca-core-3.6.7
 
 
-### Slides' theme used for our demos
+## Slides' theme used for our demos
 
 https://undraw.co/ & https://www.slidescarnival.com/ : nice Google slides templates for presentations
 
-### Install an Egg locally
+## Install an Egg locally
 
 pip install --editable git+https://github.com/openfisca/openfisca-core.git@SPECIFIC_BRANCH_NAME#egg=OpenFisca-Core
 pip list # (to check that the dependency has been installed successfully
 
-### Debug
+## Debug
 
 Debug with colors (Stop the execution at a specific place in the code and open an interactive console) :
 ```pip install ipdb```
@@ -41,6 +46,6 @@ fpagnoux has a Sublime shortcut to insert this code snippet quickly and use it _
 If you are using this to debug the Web Api, it is convenient to use `openfisca serve -t 0 -w 1`
 to disable the timeout and use only one worker.
 
-### Docker
+## Docker
 
 To run a brand new docker on a specific directory like `openfisca-core`, you can run this command: `docker run --rm -it -v $PWD:/openfisca-core -w /openfisca-core python:3.7 bash`
