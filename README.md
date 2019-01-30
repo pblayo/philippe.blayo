@@ -5,6 +5,14 @@ Commands used by Philippe Blayo
 `./initial.bash`
 `docker-compose up`
 
+```$ git remote -v
+origin	https://github.com/IQSS/dataverse.git (fetch)
+origin	https://github.com/IQSS/dataverse.git (push)
+pblayo	git@github.com:pblayo/dataverse.git (fetch)
+pblayo	git@github.com:pblayo/dataverse.git (push)
+```
+
+
 # OpenFisca : turn law into software code
 
 ## Local Python environment with pyenv
