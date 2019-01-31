@@ -4,6 +4,7 @@ Commands used by Philippe Blayo
 
 `./initial.bash`
 `docker-compose up`
+Access through http://localhost:8085
 
 ```$ git remote -v
 origin	https://github.com/IQSS/dataverse.git (fetch)
