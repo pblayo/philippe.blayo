@@ -1,10 +1,8 @@
 Commands used by Philippe Blayo
 
-# Dataverse : survey's data warehouse
+# Setting for a fork in github
 
-`./initial.bash`
-`docker-compose up`
-Access through http://localhost:8085
+To always fetch from the origin and push into the fork, the best setting I've found so far:
 
 ```$ git remote -v
 origin	https://github.com/IQSS/dataverse.git (fetch)
