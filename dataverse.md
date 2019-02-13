@@ -30,3 +30,7 @@ With a Google search of "site:guides.dataverse.org email"
 
 http://guides.dataverse.org/en/latest/user/account.html
 http://guides.dataverse.org/en/latest/installation/oauth2.html
+
+## API token
+
+I fear that the token is related to a specific user.
