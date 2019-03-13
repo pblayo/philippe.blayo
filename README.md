@@ -56,3 +56,8 @@ to disable the timeout and use only one worker.
 ## Docker
 
 To run a brand new docker on a specific directory like `openfisca-core`, you can run this command: `docker run --rm -it -v $PWD:/openfisca-core -w /openfisca-core python:3.7 bash`
+
+Install manually a recent version of docker : https://fabianlee.org/2017/03/07/docker-installing-docker-ce-on-ubuntu-14-04-and-16-04/
+Tested on Ubuntu 14.04 LTS
+
+To install a version as old as 1.13 on a 14.04 LTS : https://docs.docker.com/cs-engine/1.13/
