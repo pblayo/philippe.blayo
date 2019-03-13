@@ -62,3 +62,12 @@ Tested on Ubuntu 14.04 LTS
 
 To install a version as old as 1.13 on a 14.04 LTS : https://docs.docker.com/cs-engine/1.13/
 sudo apt-get install docker-engine=<version>
+
+### Last versions 
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+
+udo apt-cache policy docker-ce
+sudo apt-get install docker-ce=17.06.0~ce-0~ubuntu
