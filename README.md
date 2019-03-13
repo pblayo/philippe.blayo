@@ -61,3 +61,4 @@ Install manually a recent version of docker : https://fabianlee.org/2017/03/07/d
 Tested on Ubuntu 14.04 LTS
 
 To install a version as old as 1.13 on a 14.04 LTS : https://docs.docker.com/cs-engine/1.13/
+sudo apt-get install docker-engine=<version>
