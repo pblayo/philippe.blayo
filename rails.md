@@ -88,3 +88,38 @@ services:
     depends_on:
       - db
 ```
+
+```
+docker-compose run web rails new . --force --no-deps --database=postgresql
+sudo chown -R $USER:$USER .
+docker-compose build
+```
+
+Replace the contents of config/database.yml with the following:
+
+```
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password:
+  pool: 5
+
+development:
+  <<: *default
+  database: myapp_development
+
+
+test:
+  <<: *default
+  database: myapp_test
+```
+
+
+```
+docker-compose up
+docker-compose run web rake db:create
+```
+
+From https://docs.docker.com/compose/rails/
