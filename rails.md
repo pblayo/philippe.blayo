@@ -123,3 +123,20 @@ docker-compose run web rake db:create
 ```
 
 From https://docs.docker.com/compose/rails/
+
+# bootstrap
+
+To have boostrap work, in `Dockerfile` I then needed to replace
+```
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+```
+
+with
+
+```
+# https://github.com/nodesource/distributions#installation-instructions
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
+        && apt-get install -y nodejs
+```
+
+update_all

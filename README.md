@@ -1,6 +1,11 @@
 Commands used by Philippe Blayo
 
-# Setting for a fork in github
+
+# Git
+
+git push origin :618-a-branch
+
+## Setting for a fork in github
 
 To always fetch from the origin and push into the fork, the best setting I've found so far:
 
@@ -10,7 +15,6 @@ origin	https://github.com/IQSS/dataverse.git (push)
 pblayo	git@github.com:pblayo/dataverse.git (fetch)
 pblayo	git@github.com:pblayo/dataverse.git (push)
 ```
-
 
 # OpenFisca : turn law into software code
 
@@ -71,3 +75,7 @@ sudo apt-get update
 
 sudo apt-cache policy docker-ce
 sudo apt-get install docker-ce=17.06.0~ce-0~ubuntu
+
+## Vim
+
+Ctr-a Ctr-x to increment / decrement
