@@ -75,7 +75,3 @@ sudo apt-get update
 
 sudo apt-cache policy docker-ce
 sudo apt-get install docker-ce=17.06.0~ce-0~ubuntu
-
-## Vim
-
-Ctr-a Ctr-x to increment / decrement
