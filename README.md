@@ -16,6 +16,18 @@ pblayo	git@github.com:pblayo/dataverse.git (fetch)
 pblayo	git@github.com:pblayo/dataverse.git (push)
 ```
 
+## Remove a folder from git tracking
+
+- Step 1. Add the folder path to your repo's root .gitignore file.
+- Step 2. Remove the folder from your local git tracking, but keep it on your disk.
+```
+git rm -r --cached path_to_your_folder/
+```
+
+- Step 3. Push your changes to your git repo.
+
+Ref: https://stackoverflow.com/a/30360954/390640
+
 # OpenFisca : turn law into software code
 
 ## Local Python environment with pyenv
