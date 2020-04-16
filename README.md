@@ -28,6 +28,20 @@ git rm -r --cached path_to_your_folder/
 
 Ref: https://stackoverflow.com/a/30360954/390640
 
+## git color-diff like --word-diff
+
+```
+cd ~/bin
+curl -LO "https://raw.githubusercontent.com/git/git/master/contrib/diff-highlight/diff-highlight"
+chmod u+x diff-highlight
+git config --global pager.log 'diff-highlight | less'
+git config --global pager.show 'diff-highlight | less'
+git config --global pager.diff 'diff-highlight | less'
+git config --global interactive.diffFilter diff-highlight
+```
+
+Ref: https://stackoverflow.com/a/39811744/390640
+
 # OpenFisca : turn law into software code
 
 ## Local Python environment with pyenv
