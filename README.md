@@ -42,6 +42,14 @@ git config --global interactive.diffFilter diff-highlight
 
 Ref: https://stackoverflow.com/a/39811744/390640
 
+## Install the latest version of git on ubuntu
+
+```
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+```
+
 # OpenFisca : turn law into software code
 
 ## Local Python environment with pyenv
